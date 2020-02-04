@@ -1,0 +1,59 @@
+<html>
+<head>
+  <title>Calculate Budget</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="jquery.js"></script>
+  <link type="text/css" href="budget.css" rel="stylesheet"/>
+  <script src="budget.js"></script>
+  </head>
+  <body>
+	
+	<div class="container"><font face="calibri" size="6pt">BUDGET APP</font></div>
+	<br>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<fieldset id="fs">
+				<font face="calibri" size="5pt">&nbsp;&nbsp;&nbsp;Please Enter Your Budget</font><br>
+				<input type="text" id="a"/><br>
+				<input type="button" value="Calculate" id="btn">
+				<br>
+				</fieldset>
+				<br>
+				<br>
+				<fieldset id="fs2">
+				<font face="calibri" size="5pt">&nbsp;&nbsp;&nbsp;Please Enter Your Expense</font><br>
+				<input type="text" id="a1" class="txt"/><br>
+				<font face="calibri" size="5pt">&nbsp;&nbsp;&nbsp;Please Enter Expense Amount</font><br>
+				<input type="text" id="a2" class="txt"/><br>
+				<input type="button" value="Add Expense" id="btn2">
+				<br>
+				</fieldset>
+			</div>
+			
+			<div class="col-md-2"><font face="calibri" size="5pt">BUDGET</font><br>
+			&nbsp;&nbsp;&nbsp;<img src="note.jpg"><br><br>
+			&nbsp;&nbsp;&nbsp;<font size="10pt" color="green"><div id="mydiv"></div></font><br><br>
+			<p>Expense Title</p>
+			
+			</div>
+			<div class="col-md-2"><font face="calibri" size="5pt" ;>EXPENSES</font><br>
+			&nbsp;&nbsp;&nbsp;<img src="card1.jpg"><br><br>
+			&nbsp;&nbsp;&nbsp;<font size="10pt" color="red" ><div id="mydiv1"></div></font><br><br>
+			<p>Expense Value</p>
+			
+			</div>
+            <div class="col-md-2"><font face="calibri" size="5pt">BALANCE</font><br>
+			&nbsp;&nbsp;&nbsp;<img src="dollar.jpg"><br><br><br>
+			<font size="10pt" ><div id="mydiv2"></div></font>
+			</div>   
+			
+		</div>
+	</div>
+	
+  </body>
+ </html>
